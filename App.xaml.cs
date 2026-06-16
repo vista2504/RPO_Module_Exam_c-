@@ -17,6 +17,7 @@ namespace MediTrack
             catch (System.Exception ex)
             { 
                 System.Console.WriteLine($"Критическая ошибка инициализации: {ex}");
+                Log.Fatal($"Критическая ошибка инициализации: {ex}.");
                 Shutdown(1);
             }
         }

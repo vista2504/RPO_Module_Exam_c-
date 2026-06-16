@@ -38,8 +38,8 @@ namespace MediTrack
             }
             catch (Exception ex)
             {
-                
                 System.Windows.MessageBox.Show("Произошла ошибка при загрузке данных.");
+                Log.Error($"Произашла ошибка при загрузке данных: {ex}.");
             }
             return table;
         }
