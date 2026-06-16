@@ -6,5 +6,4 @@
 /bin
 /logs
 /obj
-/INCIDENT_REPORT.md
 *.env
